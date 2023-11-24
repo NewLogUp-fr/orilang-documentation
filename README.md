@@ -36,7 +36,7 @@ Il existe deux types de référence d'objet:
 >Exemple: `CumulExercice($"Mon objet 1")`
 >Cette fonction nécessite un objet en paramètre donc on lui passe sa référence absolue. Il serait également possible d'utiliser les apostrophes `''` plutôt que la notation `$""` mais le support de cette fonctionnalité n'est pas garanti.
 
->[!warn]
+>[!warning]
 >
 >Alors que `"Mon objet 1" + "Mon objet 2"` retournera une valeur numérique correspondant à la somme des valeurs des deux objets, `$"Mon objet 1" + $"Mon objet 2"` retournera une valeur chaine de caractère correspondant à la concaténation des deux noms: `"Mon objet 1Mon objet 2"`
 ### Valeurs spéciales
